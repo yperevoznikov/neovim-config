@@ -1,3 +1,4 @@
+:q
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/Users/yuriy/.config/nvim/autoload'
+let g:netrw_dirhist_1='~/.config/nvim/autoload'
