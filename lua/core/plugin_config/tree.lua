@@ -26,6 +26,11 @@ require("nvim-tree").setup({
         --    interval = 100,
         debounce_delay = 50,
     },
+    actions = {
+        open_file = {
+            quit_on_open = true,
+        },
+    },
 })
 
 vim.keymap.set("n", "<leader>'", ":NvimTreeToggle<cr>")
